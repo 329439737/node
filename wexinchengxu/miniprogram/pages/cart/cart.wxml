@@ -1,0 +1,8 @@
+<!--miniprogram/pages/cart/cart.wxml-->
+<view class="v1">
+<image src="https://ss0.bdstatic.com/70cFvHSh_Q1YnxGkpoWK1HF6hhy/it/u=2681695762,3364246770&fm=26&gp=0.jpg"/>
+ <view class="v2">
+  <view class="add">+</view><text>数量</text><view class="jian">-</view>
+ </view>
+ 
+</view>

@@ -1,0 +1,53 @@
+/* miniprogram/pages/yunhanshu/yunhanshu.wxss */
+.ji view{
+  display: flex;margin-top:20rpx ;
+}
+.ji view input{
+  margin-left: 0rpx;width: 500rpx;
+}
+.ji input{
+  border: 1rpx solid pink;display: flex;
+}
+button{
+  background-color:pink;margin-top:100rpx ;
+}
+.txt{
+  font-size: 130rpx;color: red;font-weight: bolder;
+}
+/*下拉框*/
+.top-selected{
+  color: red;
+}
+.select_box{
+  width: 100rpx;
+  background-color:pink ;
+  /* padding: 0 20rpx; */
+  float: left;
+  position: absolute;
+  top:0;
+  right: 0;
+  z-index: 1;
+  overflow: hidden;
+  font-size: 30rpx;
+  animation: myfrist 0.5s;
+
+}
+.select_one{
+  width: 300rpx;
+  padding-left:20rpx ;
+  width: 100%;
+  height: 60rpx;
+  position: relative;
+  line-height: 60rpx;
+  border-bottom:1rpx solid #ccc ;
+}
+@keyframes myfrist{
+
+  100%{
+    transform: translateX(-200rpx);
+  }
+  0%{
+
+    transform: translateY(100rpx);
+  }
+}

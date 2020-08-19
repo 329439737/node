@@ -1,0 +1,47 @@
+/* miniprogram/pages/see/see.wxss */
+body{
+  margin: 0px;padding: 0px;
+}
+.bg{
+  width: 100%;height: 400rpx;border-bottom: 1rpx saddlebrown solid;
+  position: relative;
+}
+.bg image{
+  width: 100%;
+  height: 400rpx;
+  background-size: cover;
+}
+.v1{
+position:absolute;top: 300rpx;right:30rpx;display: flex;z-index: 9999;
+}
+.v1 text{
+font-weight: bold;color:white;margin-left: 15rpx;margin-top: 45rpx;display: block;
+}
+.v1 image{
+  width: 150rpx;height: 150rpx;align-items: center;margin-top: 15rpx;display: block;border-radius: 10rpx;
+}
+.list{
+ padding-top: 50rpx;padding-bottom: 50rpx;border-bottom:1rpx black solid ;
+}
+.list-one{
+  display: flex;
+}
+.list-one text{
+  color:black;margin-left: 15rpx;margin-top: 55rpx;display: block;
+}
+.list-one image{
+  width: 150rpx;height: 150rpx;align-items: center;margin-top: 15rpx;display: block;border-radius: 10rpx;margin-left: 15rpx;
+}
+.list-two{
+ margin-right: 30rpx;
+  margin: 15rpx 130rpx;
+}
+.fabiao{
+  width: 100rpx;height: 100rpx;position: fixed;top: 400rpx;right: 150rpx;display: block;border-radius:50% ;background-color:pink ;z-index: 100000;
+}
+.fabiao text{
+  font-size: 22rpx;text-align: center;line-height: 100rpx;display: block;
+}
+.del{
+  margin-left: 120rpx;margin-top: 20rpx;color: red;font-size: 22rpx;
+}

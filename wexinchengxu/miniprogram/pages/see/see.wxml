@@ -1,0 +1,23 @@
+<!--miniprogram/pages/see/-->
+<view class="bg">
+  <image src="../../images/test/bg.jpg"/>
+   <view class="v1" data-id="{{userid}}" bindtap="wo">
+       <text>{{name}}</text>
+       <image src="{{img}}"/>
+    </view>
+ </view>
+ <view class="list" wx:for="{{list}}" wx:key="index">
+   <view class="list-one" bindtap="jinru"  data-id="{{item.userid}}">
+      <image src="{{item.userphoto}}"/>
+      <text>{{item.username}}</text>
+    </view>
+   <view class="list-two">
+      <text>{{item.info}}</text>
+   </view>
+     <text class="del"  wx:if="{{del}}" bindtap="del">删除</text>
+         </view>
+<view class="fabiao" bindtap="xiangfa">
+       <text>发表</text>
+</view>
+
+

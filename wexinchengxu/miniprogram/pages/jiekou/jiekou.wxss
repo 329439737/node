@@ -1,0 +1,23 @@
+/* miniprogram/pages/jiekou/jiekou.wxss */
+.v1{
+  margin: 12rpx 10rpx;border-bottom:1rpx pink solid ;width: 100%;height: 100rpx;display: flex;
+}
+
+.v1 text{
+  margin-left: 30rpx;line-height: 100rpx;
+}
+.txt2{
+  margin-left: 100rpx;
+  }
+.bu{
+  align-items: center;position: fixed;bottom: 0rpx;
+}
+.v2{
+  width: 100%;height: 100%;background-color:pink ;position: fixed;top: 0rpx;bottom: 100rpx;
+}
+.add{
+  position: fixed;right: 0rpx;left: 0rpx;top: 0;background-color:white ;
+}
+.v1 .del{
+  background-color:transparent ;color: red;margin-right: 0;
+}

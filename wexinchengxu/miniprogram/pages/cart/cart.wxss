@@ -1,0 +1,12 @@
+/* miniprogram/pages/cart/cart.wxss */
+.v1 image{
+  width: 400rpx;height: 500rpx;
+}
+view{
+  display: flex;
+}
+.add,.jian{
+  display: block;width: 40rpx;height: 40rpx;border: 1px solid pink;line-height: 30rpx;text-align: center;
+}
+.v2{padding-top: 400rpx;margin-left:130rpx ;
+}

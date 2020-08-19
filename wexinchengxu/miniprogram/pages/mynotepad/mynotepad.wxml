@@ -1,0 +1,15 @@
+<!--miniprogram/pages/mynotepad/mynotepad.wxml-->
+<text class="ta" wx:if="{{inno}}">我的漂流瓶</text>
+  <text class="ta" wx:else>居然什么也没有</text>
+<view wx:for="{{ notepad }}" wx:key="index">
+ 
+ <view class="friendList-item">
+      <view>
+        <text>{{ item.notepad }}</text>
+        <!--<text>{{ item._id }}</text>--> 
+      </view>
+     <text class="iconfont iconarrowRight" bindtap="del" data-id="{{ item._id }}">删除</text>
+    </view>
+   
+</view>
+

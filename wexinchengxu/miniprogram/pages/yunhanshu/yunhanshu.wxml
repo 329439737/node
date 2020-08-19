@@ -1,0 +1,33 @@
+<!--计算器-->
+<view class="ji">
+ <view>
+  输 入 数字1: <input type="number" data-no1="{{no1}}" bindinput="no1"></input>
+ </view>
+ <view>
+ <!--下拉框-->
+  <view >
+     
+  </view>
+选择操作符：<input type="text" disabled="true" class="top-selected" bindtap="bindshow">
+ <text>{{grade_name}}</text>
+</input>
+ </view>
+<view>
+输 入 数字2:<input type="number" data-no1="{{no2}}" bindinput="no2"></input>
+</view>
+<view>
+ 结果为:<label class="txt">{{result}}</label>
+</view>
+  
+ 
+  <button bindtap="btn" data-no1="{{no1}}" data-no2="{{no2}}" data-caozuo="{{grade_name}}">计算</button>
+</view>
+
+<!--需要显示的下拉列表-->
+<view class="select_box" wx:if="{{select}}">
+ <view wx:for="{{grades}}" wx:key="index">
+  <view class="select_one" bindtap="se" data-name="{{item}}">{{item}}</view>
+ </view>
+
+</view>
+
